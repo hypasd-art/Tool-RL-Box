@@ -1,0 +1,12 @@
+| message_index   | sender     | recipient                 | content                                                                                                                  |
+|-----------------|------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 0               | user       | agent                     | I need to send a message to Frank with the content: 'Are you free tomorrow to have lunch with me?'.                      |
+| 1               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 2               | user       | agent                     | Could you please confirm the recipient's name and the message content?                                                   |
+| 3               | agent      | user                      | <tool_call>                                                                                                              |
+| 4               | user       | agent                     | The recipient's name is Frank, and the message content is: 'Are you free tomorrow to have lunch with me?'.               |
+| 5               | agent      | user                      | <tool_call>                                                                                                              |
+| 6               | user       | agent                     | Sending message to Frank: 'Are you free tomorrow to have lunch with me?'                                                 |
+| 7               | agent      | user                      | <tool_call>                                                                                                              |
+| 8               | user       | agent                     | finish conversation                                                                                                      |

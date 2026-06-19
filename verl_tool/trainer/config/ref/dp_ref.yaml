@@ -1,0 +1,79 @@
+# defaults specify the default config from each component
+defaults:
+
+  # dp ref config, inheriting from trainer/config/ref/ref.yaml
+  - ref
+
+  # load the reference default config, then apply the fields in the current yaml
+  - _self_
+
+# config for FSDP strategy
+fsdp_config:
+
+  # whether to offload parameters in FSDP
+  param_offload: False
+
+  # whether to perform reshard after model forward to save memory.
+  # only for fsdp2, [True, False, int between 1 and fsdp_size]
+  reshard_after_forward: True
+
+  # Only for FSDP1: FSDP1 configuration, prefetch the next forward-pass all-gather
+  # before the current forward computation.
+  forward_prefetch: False
+
+  # the wrap policy for FSDP model
+  wrap_policy:
+
+    # minimum number of params in a wrapped module
+    min_num_params: 0
+
+# # Whether to use SFT loss
+# use_sft_loss: False
+
+# sft_train_config:
+
+#   model_name: qwen2.5-1.5b-instruct
+
+#   # Number of SFT steps per update
+#   sft_steps_per_update: 1
+
+#   # SFT loss weight
+#   sft_loss_weight: 1.0
+
+#   sft_train_paths: []
+
+#   sft_data_config: 
+#     train_batch_size: 256
+#     micro_batch_size: null # will be deprecated, use micro_batch_size_per_gpu
+#     micro_batch_size_per_gpu: 4  # this is also val batch size
+#     train_files: ~/data/gsm8k/train.parquet
+#     val_files: ~/data/gsm8k/test.parquet
+#     # Single-turn settings
+#     prompt_key: question
+#     response_key: answer
+#     prompt_dict_keys: null
+#     response_dict_keys: null
+#     # Multi-turn settings
+#     multiturn:
+#       enable: false  # Set to true to use multi-turn dataset
+#       messages_key: messages  # Key for messages list in multi-turn mode
+#       tools_key: tools  # Key for tools list in multi-turn mode
+#       enable_thinking_key: enable_thinking  # Whether to enable thinking in multi-turn mode
+#     max_length: 1024
+#     truncation: error
+#     balance_dp_token: False
+#     chat_template: null
+#     custom_cls:
+#       path: null
+#       name: null
+#     use_shm: False
+
+# sequence parallel size
+# same as actor_rollout_ref.actor.ulysses_sequence_parallel_size if it exists, otherwise 1
+ulysses_sequence_parallel_size: ${oc.select:actor_rollout_ref.actor.ulysses_sequence_parallel_size,1}
+
+# calculate entropy with chunking to reduce memory peak
+entropy_from_logits_with_chunking: False
+
+# recompute entropy
+entropy_checkpointing: False

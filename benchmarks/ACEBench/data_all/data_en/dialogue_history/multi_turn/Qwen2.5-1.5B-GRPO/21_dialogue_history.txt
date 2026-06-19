@@ -1,0 +1,28 @@
+| message_index   | sender     | recipient                 | content                                                                                                                  |
+|-----------------|------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 0               | user       | agent                     | I need to book a flight from Shanghai to Beijing.                                                                        |
+| 1               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 2               | user       | agent                     | What date would you like to book the flight for?                                                                         |
+| 3               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 4               | user       | agent                     | I want the latest flight on July 16th or 17th.                                                                           |
+| 5               | agent      | user                      | <tool_call>                                                                                                              |
+| 6               | user       | agent                     | What class would you like to book for your flight?                                                                       |
+| 7               | agent      | user                      | <tool_call>                                                                                                              |
+| 8               | user       | agent                     | Economy class, please.                                                                                                   |
+| 9               | agent      | user                      | <tool_call>                                                                                                              |
+| 10              | user       | agent                     | What is your preferred payment method?                                                                                   |
+| 11              | agent      | user                      | <tool_call>                                                                                                              |
+| 12              | user       | agent                     | Bank payment.                                                                                                            |
+| 13              | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 14              | user       | agent                     | How many pieces of luggage will you be bringing?                                                                         |
+| 15              | agent      | user                      | <tool_call>                                                                                                              |
+| 16              | user       | agent                     | One piece of luggage.                                                                                                    |
+| 17              | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 18              | user       | agent                     | Thank you for the information. I will proceed with booking your flight.                                                  |
+| 19              | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 20              | user       | agent                     | finish conversation                                                                                                      |

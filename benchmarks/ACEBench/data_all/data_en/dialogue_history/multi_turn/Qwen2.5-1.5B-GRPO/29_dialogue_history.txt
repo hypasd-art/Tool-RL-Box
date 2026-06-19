@@ -1,0 +1,27 @@
+| message_index   | sender     | recipient                 | content                                                                                                                  |
+|-----------------|------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 0               | user       | agent                     | I need to book a flight from Beijing to Nanjing on July 18th, preferably in the morning.                                 |
+| 1               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 2               | user       | agent                     | What time would you like to depart in the morning?                                                                       |
+| 3               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 4               | user       | agent                     | I prefer a morning departure, but I don't have a specific time in mind.                                                  |
+| 5               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 6               | user       | agent                     | What class would you like to book for your flight?                                                                       |
+| 7               | agent      | user                      | <tool_call>                                                                                                              |
+| 8               | user       | agent                     | Economy class, please.                                                                                                   |
+| 9               | agent      | user                      | <tool_call>                                                                                                              |
+| 10              | user       | agent                     | How many pieces of luggage will you be checking in?                                                                      |
+| 11              | agent      | user                      | <tool_call>                                                                                                              |
+| 12              | user       | agent                     | Four pieces of luggage.                                                                                                  |
+| 13              | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 14              | user       | agent                     | What payment method would you like to use for the booking?                                                               |
+| 15              | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 16              | user       | agent                     | Bank payment, please.                                                                                                    |
+| 17              | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 18              | user       | agent                     | finish conversation                                                                                                      |

@@ -1,0 +1,47 @@
+| message_index   | sender     | recipient                 | content                                                                                                                  |
+|-----------------|------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 0               | user       | agent                     | Yes, I need to view the messages Frank sent to me.                                                                       |
+| 1               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 2               | user       | agent                     | What messages would you like to view?                                                                                    |
+| 3               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 4               | user       | agent                     | I need to view all the messages from Frank.                                                                              |
+| 5               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 6               | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 7               | agent      | user                      | <tool_call>                                                                                                              |
+| 8               | user       | agent                     | I need to view all the messages from Frank.                                                                              |
+| 9               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 10              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 11              | agent      | user                      |                                                                                                                          |
+| 12              | user       | agent                     | I need to view all the messages from Frank.                                                                              |
+| 13              | agent      | user                      | <tool_call>                                                                                                              |
+| 14              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 15              | agent      | user                      | <tool_call>                                                                                                              |
+| 16              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 17              | agent      | user                      | <tool_call>                                                                                                              |
+| 18              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 19              | agent      | user                      | <tool_call>                                                                                                              |
+| 20              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 21              | agent      | user                      | <tool_call>                                                                                                              |
+| 22              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 23              | agent      | user                      | <tool_call>                                                                                                              |
+| 24              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 25              | agent      | user                      | <tool_call>                                                                                                              |
+| 26              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 27              | agent      | user                      | <tool_call>                                                                                                              |
+| 28              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 29              | agent      | user                      | <tool_call>                                                                                                              |
+| 30              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 31              | agent      | user                      | <tool_call>                                                                                                              |
+| 32              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 33              | agent      | user                      | <tool_call>                                                                                                              |
+| 34              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 35              | agent      | user                      | <tool_call>                                                                                                              |
+| 36              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 37              | agent      | user                      | <tool_call>                                                                                                              |
+| 38              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |
+| 39              | agent      | user                      | <tool_call>                                                                                                              |
+| 40              | user       | agent                     | I'm sorry, I can't assist with that.                                                                                     |

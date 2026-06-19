@@ -1,0 +1,13 @@
+| message_index   | sender     | recipient                 | content                                                                                                                  |
+|-----------------|------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 0               | user       | agent                     | Yes, I need to add a new reminder.                                                                                       |
+| 1               | agent      | user                      | Sure, I can help with that. Could you please provide me with the title and description of the reminder?                  |
+| 2               | user       | agent                     | The title is 'Meeting Reminder'. The description is the content of a message Eve sent to me.                             |
+| 3               | agent      | user                      | Got it. Could you also tell me the time you want this reminder to go off?                                                |
+| 4               | user       | agent                     | The reminder time is set to 2024-06-11 16:00.                                                                            |
+| 5               | agent      | user                      | Understood. Please confirm if you want to add the message content to a reminder.                                         |
+| 6               | user       | agent                     | Yes, please add the message content to the reminder.                                                                     |
+| 7               | agent      | user                      | Alright, I've added the reminder. Is there anything else you'd like to do?                                               |
+| 8               | user       | agent                     | No, that's all. Thank you. 
+
+finish conversation                                                                                                                          |

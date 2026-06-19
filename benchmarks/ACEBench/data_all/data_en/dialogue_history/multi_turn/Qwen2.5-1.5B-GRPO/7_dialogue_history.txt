@@ -1,0 +1,25 @@
+| message_index   | sender     | recipient                 | content                                                                                                                  |
+|-----------------|------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 0               | user       | agent                     | Yes, I need to add a new reminder.                                                                                       |
+| 1               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 2               | user       | agent                     | What would you like the reminder title to be?                                                                            |
+| 3               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 4               | user       | agent                     | Meeting Reminder                                                                                                         |
+| 5               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 6               | user       | agent                     | What should the reminder description be?                                                                                 |
+| 7               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 8               | user       | agent                     | The content of a message Eve sent to me.                                                                                 |
+| 9               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 10              | user       | agent                     | What time should the reminder be set for?                                                                                |
+| 11              | agent      | user                      | <tool_call>                                                                                                              |
+| 12              | user       | agent                     | The reminder time should be set to 2024-06-11 16:00.                                                                     |
+| 13              | agent      | user                      | <tool_call>                                                                                                              |
+| 14              | user       | agent                     | The reminder has been added with the title 'Meeting Reminder', the description from Eve's message, and the time set to 2 |
+|                 |            |                           | 024-06-11 16:00. Is there anything else you need help with?                                                              |
+| 15              | agent      | user                      |                                                                                                                          |
+| 16              | user       | agent                     | No, thank you. finish conversation                                                                                       |

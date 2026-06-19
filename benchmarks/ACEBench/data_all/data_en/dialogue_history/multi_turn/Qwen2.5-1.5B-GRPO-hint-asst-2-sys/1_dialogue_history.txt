@@ -1,0 +1,9 @@
+| message_index   | sender     | recipient                 | content                                                                                                                  |
+|-----------------|------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 0               | user       | agent                     | Yes, I need to send a message to Frank.                                                                                  |
+| 1               | agent      | user                      | Sure, I can help with that. Could you please provide me with the message content?                                        |
+| 2               | user       | agent                     | The message content is: 'Are you free tomorrow to have lunch with me?'                                                   |
+| 3               | agent      | user                      | Understood. I'll send the message now.                                                                                   |
+| 4               | user       | agent                     | Thank you.                                                                                                               |
+| 5               | agent      | user                      | You're welcome. Is there anything else I can assist you with?                                                            |
+| 6               | user       | agent                     | No, that's all. finish conversation                                                                                      |

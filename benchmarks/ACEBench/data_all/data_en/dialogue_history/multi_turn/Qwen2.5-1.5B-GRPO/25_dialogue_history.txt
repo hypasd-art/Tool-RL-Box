@@ -1,0 +1,25 @@
+| message_index   | sender     | recipient                 | content                                                                                                                  |
+|-----------------|------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 0               | user       | agent                     | I need to change my flight from Shanghai to Beijing to the next evening and switch to economy class.                     |
+| 1               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 2               | user       | agent                     | Could you please provide your current flight details or reservation number?                                              |
+| 3               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 4               | user       | agent                     | I don't have the reservation number with me right now.                                                                   |
+| 5               | agent      | user                      | <tool_call>                                                                                                              |
+| 6               | user       | agent                     | Could you please provide the date of your current flight from Shanghai to Beijing?                                       |
+| 7               | agent      | user                      | <tool_call>                                                                                                              |
+| 8               | user       | agent                     | My current flight is scheduled for tomorrow.                                                                             |
+| 9               | agent      | user                      | <tool_call>                                                                                                              |
+| 10              | user       | agent                     | Searching for flights from Shanghai to Beijing for the next evening in economy class.                                    |
+| 11              | agent      | user                      | <tool_call>                                                                                                              |
+| 12              | user       | agent                     | Flight number MU1234 is available for the next evening in economy class. Would you like to proceed with this change?     |
+| 13              | agent      | user                      | <tool_call>                                                                                                              |
+| 14              | user       | agent                     | Yes, please proceed with the change to flight MU1234.                                                                    |
+| 15              | agent      | user                      | <tool_call>                                                                                                              |
+| 16              | user       | agent                     | The flight change to MU1234 in economy class has been successfully processed. Is there anything else you need help with? |
+| 17              | agent      | user                      |                                                                                                                          |
+| 18              | user       | agent                     | No, that's all. Thank you.                                                                                               |
+| 19              | agent      | user                      | <tool_call>                                                                                                              |
+| 20              | user       | agent                     | finish conversation                                                                                                      |

@@ -1,0 +1,28 @@
+| message_index   | sender     | recipient                 | content                                                                                                                  |
+|-----------------|------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 0               | user       | agent                     | I am Jack (username: Jack, password: password654). I want to order a barbecue from Jiutian BBQ, but I only have 120 yuan |
+|                 |            |                           | . I need to first understand the types and prices of Jiutian BBQ, then order one that I can afford.                      |
+| 1               | agent      | user                      | <tool_call>
+                                                                                                                          |
+| 2               | execution  | agent                     |                                                                                                                          |
+| 3               | agent      | user                      | <tool_call>                                                                                                              |
+| 4               | execution  | agent                     |                                                                                                                          |
+| 5               | agent      | user                      | <tool_call>                                                                                                              |
+| 6               | execution  | agent                     |                                                                                                                          |
+| 7               | agent      | user                      |                                                                                                                          |
+| 8               | execution  | agent                     |                                                                                                                          |
+| 9               | agent      | user                      | <tool_call>                                                                                                              |
+| 10              | execution  | agent                     |                                                                                                                          |
+| 11              | agent      | user                      | <tool_call>                                                                                                              |
+| 12              | execution  | agent                     |                                                                                                                          |
+| 13              | agent      | user                      | <tool_call>                                                                                                              |
+| 14              | execution  | agent                     |                                                                                                                          |
+| 15              | agent      | user                      |                                                                                                                          |
+| 16              | execution  | agent                     |                                                                                                                          |
+| 17              | agent      | user                      |                                                                                                                          |
+| 18              | execution  | agent                     |                                                                                                                          |
+| 19              | agent      | user                      | <tool_response>
+[]
+</tool_helper>                                                                                                                          |
+| 20              | execution  | agent                     |                                                                                                                          |
+| 21              | agent      | user                      | finish conversation                                                                                                      |
