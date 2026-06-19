@@ -1,6 +1,6 @@
-# Agentic RL Integration
+# Why Multi-Step Tool-Use Reinforcement Learning Collapses and How Supervisory Signals Fix It
 
-Tool-augmented reinforcement learning for function-calling agents, built on [verl-tool](https://github.com/volcengine/verl.git) and [veRL](https://github.com/volcengine/verl).
+Tool-augmented reinforcement learning for function-calling agents, built on [verl-tool](https://github.com/TIGER-AI-Lab/verl-tool.git) and [veRL](https://github.com/volcengine/verl).
 
 This project extends verl-tool with process-level reward modeling, iterative SFT+RL evolution, hint-assisted training, and structural format debugging tools for multi-turn tool-use agents.
 
@@ -72,7 +72,3 @@ See [`examples/train/README.md`](examples/train/README.md) and [`examples/train/
 - **Multi-tool support** — FCL, ToolACE, and custom tool interfaces via verl_tool's pluggable server architecture
 
 See [`examples/train/fcl/README.md`](examples/train/fcl/README.md) for the full evaluation script.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
